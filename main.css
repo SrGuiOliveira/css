@@ -1,0 +1,106 @@
+﻿*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header li{
+    display: inline;
+
+}
+
+header li  a {
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+header li a:hover {
+    color:blueviolet;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body > header{
+    background-color: black;
+    padding: 16px 0;
+    color: antiquewhite;
+    
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: black;
+    color:aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+} 
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.articles article h3 {
+    font-size: 24px;
+    
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(0, 155, 100, 0.4);
+}
+
+#economia {
+    background-color: rgba(500, 500, 50, 0.7);
+}
