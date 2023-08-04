@@ -98,9 +98,19 @@ section h2 {
 }
 
 #esportes {
-    background-color: rgba(0, 155, 100, 0.4);
+    background-color: rgba(0, 155, 100, 0.1);
 }
 
 #economia {
-    background-color: rgba(500, 500, 50, 0.7);
+    background-color: rgba(500, 500, 50, 0.5);
 }
+
+#entretenimento {
+    background-color: gray;
+}
+
+#tecnologia {
+    background-color: rgba(100, 0, 100, 0.3);;
+}
+
+
